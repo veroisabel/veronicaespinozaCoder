@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Poppins", sans-serif; }
+
+.btn-color {
+  background-color: #ffc0cb; }
+
+.btn-color-dark {
+  background-color: #f57f92; }
+
+.navbar {
+  min-height: 90px;
+  background-color: #ffc0cb;
+  box-shadow: 1px 1px 1px #f57f92;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
+  .navbar .button {
+    padding: .625rem 1.25rem; }
+
+.section-title {
+  margin: 20px 0 50px 0;
+  text-align: center; }
+  .section-title h1 {
+    font-size: 65px; }
+
+footer {
+  background-color: #ffc0cb; }
+  footer .border-top-color {
+    border-top: 1px solid #f57f92; }
+
+.section__intro {
+  margin: 120px 0 50px 0;
+  padding: 10px 30px; }
+  .section__intro small {
+    color: #ffc0cb; }
+  .section__intro span {
+    color: #ffc0cb; }
+  .section__intro img {
+    width: 500px;
+    height: auto;
+    border-radius: 90px; }
+
+.section__orders {
+  margin: 50px 0;
+  padding: 10px 30px; }
+  .section__orders img {
+    width: 500px;
+    height: auto;
+    border-radius: 90px;
+    padding-right: 30px; }
+  .section__orders .list-style-color {
+    color: #ffc0cb; }
+
+.section__catering {
+  margin: 50px 0;
+  padding: 60px 30px;
+  background-color: #ffc0cb; }
+  .section__catering img {
+    width: 500px;
+    height: auto;
+    border-radius: 45px; }
+
+.section__contactUs {
+  margin: 50px 0; }
+  .section__contactUs .box-contactUs {
+    background-color: #ffc0cb; }
+
+.section__meetUs {
+  margin: 120px 0 70px 0; }
+  .section__meetUs img {
+    width: 500px;
+    height: auto;
+    border-radius: 90px; }
+
+.section__ourTeam {
+  margin: 50px 0; }
+  .section__ourTeam div {
+    background-color: #ffc0cb;
+    padding: 20px; }
+    .section__ourTeam div .teamGroup {
+      display: flex;
+      flex-direction: column; }
+      .section__ourTeam div .teamGroup .membersLeft {
+        display: flex; }
+        .section__ourTeam div .teamGroup .membersLeft img {
+          width: 450px;
+          height: auto;
+          border-radius: 90px; }
+        .section__ourTeam div .teamGroup .membersLeft .memberInfo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section__ourTeam div .teamGroup .membersLeft .memberInfo h2 {
+            text-align: left; }
+      .section__ourTeam div .teamGroup .membersRight {
+        display: flex;
+        flex-direction: row-reverse; }
+        .section__ourTeam div .teamGroup .membersRight img {
+          width: 450px;
+          height: auto;
+          border-radius: 90px; }
+        .section__ourTeam div .teamGroup .membersRight .memberInfo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+          .section__ourTeam div .teamGroup .membersRight .memberInfo h2 {
+            text-align: left; }
+
+.section__cateringService {
+  margin: 120px 0 50px 0; }
+  .section__cateringService div {
+    padding: 2px; }
+    .section__cateringService div .container-images {
+      display: grid;
+      grid-template-columns: 40% 60%;
+      gap: 20px;
+      padding: 15px;
+      margin-top: 50px; }
+      .section__cateringService div .container-images .verticalImages {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 25px; }
+        .section__cateringService div .container-images .verticalImages img {
+          width: 350px;
+          height: 150px; }
+      .section__cateringService div .container-images .horizontalImages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px; }
+        .section__cateringService div .container-images .horizontalImages img {
+          width: 300px;
+          height: 350px; }
+
+.section__offer {
+  margin: 50px 0; }
+  .section__offer h2 {
+    margin-bottom: 30px; }
+  .section__offer .ourOffer {
+    padding: 10px; }
+    .section__offer .ourOffer-img img {
+      width: 250px;
+      height: 250px; }
+    .section__offer .ourOffer-text {
+      display: flex;
+      align-items: center; }
+      .section__offer .ourOffer-text p {
+        font-size: 22px; }
+
+.section-title-galery {
+  margin: 120px 0 50px 0; }
+  .section-title-galery h1 {
+    text-align: center;
+    font-size: 65px; }
+
+.section__cakes h2 {
+  margin: 50px 50px; }
+
+.section__cakes .box-galery {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center; }
+  .section__cakes .box-galery .carousel-images {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    z-index: -1; }
+    .section__cakes .box-galery .carousel-images img {
+      width: 250px;
+      height: 340px; }
+  .section__cakes .box-galery .static-image {
+    padding: 10px; }
+  .section__cakes .box-galery img {
+    width: 250px;
+    height: 150px; }
+
+.section__contact {
+  margin: 120px 0 50px 0; }
+  .section__contact div.container {
+    background-color: #f57f92; }
+    .section__contact div.container .contactUs {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 10px auto; }
+      .section__contact div.container .contactUs .userName {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around; }
+        .section__contact div.container .contactUs .userName-input {
+          display: flex;
+          flex-direction: column; }
+          .section__contact div.container .contactUs .userName-input input {
+            margin: 5px 0 10px 0;
+            padding: 5px; }
+          .section__contact div.container .contactUs .userName-input span {
+            margin: 10px 0 5px 0; }
+      .section__contact div.container .contactUs .userEmail {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .section__contact div.container .contactUs .userEmail input {
+          margin: 5px 0 10px 0;
+          padding: 5px;
+          width: 230px; }
+        .section__contact div.container .contactUs .userEmail span {
+          margin: 10px 0 5px 0; }
+      .section__contact div.container .contactUs .consultation input {
+        width: 80%;
+        height: 200px;
+        margin: 10px 0; }
+      .section__contact div.container .contactUs button {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 15px; }
+
+.section__map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .section__map h2 {
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0; }
+  .section__map div {
+    margin: 50px auto; }
+
+@media screen and (max-width: 576px) {
+  .section__intro .img-intro {
+    margin: 30px 0 0 0;
+    text-align: center; }
+    .section__intro .img-intro img {
+      width: 90%;
+      text-align: center; }
+  .section__orders .row {
+    display: flex;
+    flex-direction: column-reverse; }
+    .section__orders .row .img-orders {
+      margin: 0; }
+      .section__orders .row .img-orders img {
+        width: 100%;
+        text-align: center;
+        padding: 0; }
+  .section__catering .img-catering {
+    padding: 0; }
+    .section__catering .img-catering img {
+      width: 100%; }
+  .section__team .team-card {
+    margin-bottom: 15px; }
+  .section-title h1 {
+    font-size: 40px; }
+  .section__meetUs img {
+    width: 90%; }
+  .section__ourTeam div {
+    padding: 10px; }
+    .section__ourTeam div .teamGroup .membersLeft {
+      display: flex;
+      flex-direction: column; }
+      .section__ourTeam div .teamGroup .membersLeft img {
+        width: 90%; }
+    .section__ourTeam div .teamGroup .membersRight {
+      display: flex;
+      flex-direction: column; }
+      .section__ourTeam div .teamGroup .membersRight img {
+        width: 90%; }
+  .section__cateringService div {
+    padding: 0; }
+    .section__cateringService div .container-images {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      text-align: center; }
+      .section__cateringService div .container-images .verticalImages {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 15px; }
+        .section__cateringService div .container-images .verticalImages img {
+          width: 80%;
+          height: 200px; }
+      .section__cateringService div .container-images .horizontalImages {
+        display: flex;
+        flex-direction: column; }
+        .section__cateringService div .container-images .horizontalImages div {
+          margin-bottom: 15px; }
+          .section__cateringService div .container-images .horizontalImages div img {
+            width: 80%;
+            height: 200px; }
+  .section__cakes .box-galery {
+    display: flex;
+    flex-direction: column; }
+  .section__contact div.container .contactUs .userName {
+    display: flex;
+    flex-direction: column; }
+  .section__map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .section__map h2 {
+      text-align: center;
+      font-size: 45px;
+      margin: 30px 0; }
+    .section__map div {
+      margin: 50px auto; }
+      .section__map div iframe {
+        width: 90%;
+        height: auto; } }
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .section__orders .row {
+    display: flex;
+    flex-direction: column-reverse; }
+    .section__orders .row .img-orders {
+      margin: 0; }
+      .section__orders .row .img-orders img {
+        width: 100%;
+        text-align: center;
+        padding: 0; }
+  .section__cateringService {
+    margin: 120px 0 0 0; }
+    .section__cateringService div {
+      padding: 0; }
+      .section__cateringService div .container-images {
+        display: flex;
+        flex-direction: column;
+        text-align: center; }
+        .section__cateringService div .container-images .verticalImages {
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          row-gap: 10px; }
+          .section__cateringService div .container-images .verticalImages img {
+            width: 60%;
+            height: 200px; }
+        .section__cateringService div .container-images .horizontalImages {
+          display: grid;
+          grid-template-rows: 1fr 1fr;
+          row-gap: 10px; }
+          .section__cateringService div .container-images .horizontalImages div {
+            margin-bottom: 0; }
+            .section__cateringService div .container-images .horizontalImages div img {
+              width: 80%;
+              height: 300px; }
+  .section__offer {
+    margin: 0 0 20px 0; }
+  .section__cakes h2 {
+    margin: 50px 50px; }
+  .section__cakes .box-galery {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center; }
+    .section__cakes .box-galery .carousel-images {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      z-index: -1; }
+      .section__cakes .box-galery .carousel-images img {
+        width: 150px;
+        height: 270px; }
+    .section__cakes .box-galery .static-image {
+      padding: 10px; }
+    .section__cakes .box-galery img {
+      width: 150px;
+      height: 100px; } }
